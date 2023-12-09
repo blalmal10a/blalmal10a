@@ -3,7 +3,7 @@ import ContactSection from "./ContactSection.astro"
 ---
 
 <!-- Start Footer -->
-<footer class="py-8 bg-slate-800 dark:bg-gray-900">
+<footer class="py-8 bg-slate-800 dark:bg-gray-900" id="contact">
 	<ContactSection />
 	<div class="flex justify-center">
 		<ul
@@ -92,6 +92,27 @@ import ContactSection from "./ContactSection.astro"
                 >
             </li> -->
 		</ul><!--end icon-->
+	</div>
+	<div class="flex justify-center">
+		<img
+			style="max-width: 300px;"
+			src="public/assets/images/high-five.svg"
+			alt=""
+		/>
+	</div>
+	<div
+		class="p-2 md:p-5 flex justify-center"
+		style="height: 500px; overflow:hidden"
+	>
+		<iframe
+			id="map-iframe"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d589.5823872313704!2d92.72304805921483!3d23.741286046854594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374debd455cf55c1%3A0x1039602e5208ae44!2sSiruk%20Lain!5e0!3m2!1sen!2sin!4v1702134580377!5m2!1sen!2sin"
+			width="110%"
+			height="820"
+			style="border:0; margin-top: -119px"
+			allowfullscreen=""
+			loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
 </footer><!--end footer-->
 <!-- End Footer -->

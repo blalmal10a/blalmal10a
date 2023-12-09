@@ -1,19 +1,24 @@
 ---
 interface Props {
-	title: string;
-	body: string;
-	href: string;
+	title: string
+	body: string
+	href: string
+	imageLink: string
 }
 
-const { href, title, body } = Astro.props;
+const {href, title, body, imageLink} = Astro.props
 ---
 
 <li class="link-card">
-	<a href={href}>
+	<a href={href} target="_blank">
 		<h2>
 			{title}
 			<span>&rarr;</span>
 		</h2>
+		<div class="flex justify-center">
+			<!-- src="/assets/images/pharmacy.svg" -->
+			<img src={imageLink} alt="" srcset="" style="max-width: 300px;" />
+		</div>
 		<p>
 			{body}
 		</p>

@@ -44,7 +44,7 @@ export const projectList = [
 		description:
 			"Lightsail server spin-up huna awlsam taka kan mamawh ho install zung zung theihna tur script siamna a ni. Hemi script hi Laravel project atana duan bik a ni a, Laravel project nawlpui chu engmah thil dang tih belh ngai loin a in-setup nghal vek dawn a ni.",
 		image: "/assets/images/code.svg",
-		link: "https://tiltehtmltopdf.onrender.com/",
+		link: "https://script-siamna.web.app/",
 		link_label: "Nangma project script siam ve ta che",
 	},
 ]

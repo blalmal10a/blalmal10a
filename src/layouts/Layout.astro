@@ -49,7 +49,17 @@ const {title} = Astro.props
 		<slot />
 
 		<FooterSection />
-
+		<div
+			style="height: 500vh; position: relative;"
+			class="bg-slate-800 dark:bg-gray-900"
+		>
+			<div
+				class="absolute bottom-0 text-center w-full pb-20"
+				style="color: white;"
+			>
+				TINGE HELAI THLENG THLENG I LO SCROLL A <br /> I HARH LUTUK!
+			</div>
+		</div>
 		<script is:inline src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"
 		></script>
 		<script is:inline src="assets/libs/tobii/js/tobii.min.js"></script>
