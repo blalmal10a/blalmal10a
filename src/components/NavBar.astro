@@ -1,23 +1,24 @@
 <!-- Navbar Start -->
 <nav class="navbar" id="navbar">
 	<div class="container flex flex-wrap items-center justify-between">
-		<!-- <a class="navbar-brand" href="index.html">
-			<span class="inline-block dark:hidden">
-				<img src="assets/images/logo-dark.png" class="l-dark" alt="" />
-				<img src="assets/images/logo-light.png" class="l-light" alt="" />
-			</span>
-			<img
-				src="assets/images/logo-light.png"
-				class="hidden dark:inline-block"
-				alt=""
-			/>
-		</a> -->
 		<h3 class="text-orange-600 font-bold text-2xl">
 			<a href="/">Siruk Lain</a>
 		</h3>
 
 		<!-- Navbar Manu -->
 
+		<div class="nav-icons items-center ms-auto">
+			<button
+				data-collapse="menu-collapse"
+				type="button"
+				class="collapse-btn inline-flex items-center ms-3 text-dark dark:text-white lg_992:hidden"
+				aria-controls="menu-collapse"
+				aria-expanded="false"
+			>
+				<span class="sr-only">Navigation Menu</span>
+				<i class="mdi mdi-menu mdi-24px"></i>
+			</button>
+		</div>
 		<div
 			class="navigation lg_992:order-1 lg_992:flex hidden"
 			id="menu-collapse"
@@ -26,29 +27,25 @@
 				<li onclick="closeMenu();" class="nav-item">
 					<a class="nav-link active" href="/#home">Home</a>
 				</li>
-				<!-- <li class="nav-item">
-					<a class="nav-link" href="/#about">About us</a>
-				</li> -->
+
 				<li onclick="closeMenu();" class="nav-item">
 					<a class="nav-link" href="/#products">Products</a>
 				</li>
 				<li onclick="closeMenu();" class="nav-item">
 					<a class="nav-link" href="/#projects">Portfolio</a>
 				</li>
-				<!--<li onclick="closeMenu();" class="nav-item">
-					 <a class="nav-link" href="/#portfolio">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/#testi">Review</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/#pricing">Pricing</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/#blog">Blog</a>
-				</li> -->
+
 				<li onclick="closeMenu();" class="nav-item">
-					<a class="nav-link" href="/#contact">Contact</a>
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+
+				<li
+					onclick="closeMenu();"
+					class="nav-item"
+					style="padding: 1px solid #ea580b;"
+				>
+					<!-- <span class="" style="border: 1px solid red;">dfdfdf</span> -->
+					<a class="nav-link" href="/payments"> Payments</a>
 				</li>
 			</ul>
 		</div>
