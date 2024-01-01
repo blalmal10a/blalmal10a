@@ -13,4 +13,4 @@ I LOVE BUILDING STUPID APPLICATIONS.
 <li style="line-height: 5%"><a target="_blank" href="https://tiltetype.netlify.app" title="Typing duel">Typing duel</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://awmzia.web.app" title="Awmzia - Mizo Urban Dictionary">Awmzia - Mizo Urban Dictionary</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://news.tiiny.site" title="News Lem Lem">News Lem Lem</a></li>
-<li style="line-height: 5%"><p><a href="https://script-siamna.web.app" title="Script Siamna - lightsail launch script generator">Script Siamna - lightsail launch script generator</a></p>
+<li style="line-height: 5%"><a href="https://script-siamna.web.app" title="Script Siamna - lightsail launch script generator">Script Siamna - lightsail launch script generator</a></li>
