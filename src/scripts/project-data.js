@@ -1,19 +1,43 @@
 export const projectList = [
 	{
-		name: "TILTETYPE",
+		name: "TYPING DUEL",
 		description:
 			"Hemi project hi, inzirna leh hna thawh sawi tel loh-ah chuan ka khawih hmasak ve ber a ni. Typing speed test-na game a nia, a hnu-ah multiplayer mode dah belh a ni.",
 		image: "/assets/images/typing.svg",
-		link: "https://tiltetype.netlify.app",
+		link: "https://typingduel.netlify.app",
 		link_label: "Hetah hian khelh theihin a awm.",
 	},
 	{
-		name: "ENGLO ZUANG THEI",
+		name: "SHAZOO",
 		description:
-			"Englo zuang thei hi real time mass multiplayer game a ni a, score leh major objective pawh awm hran loin, thian ho va casual game khelh mai mai theih tura buatsaih a ni.",
+			"SHAZOO hi real time mass multiplayer game a ni a, score leh major objective pawh awm hran loin, thian ho va casual game khelh mai mai theih tura buatsaih a ni.",
 		image: "/assets/images/banana.svg",
-		link: "https://web.app",
+		link: "https://shazoo.web.app",
 		link_label: "Hetah hian khelh theihin a awm.",
+	},
+	{
+		name: "THIL AWMZIA - Mizo urban dictionary",
+		description:
+			"Thu leh a hrilhfiahna hrang hrang, 'style' deuh hleka kan hmante dahṭhratna tur",
+		image: "/assets/images/awmzia.png",
+		link: "https://awmzia.web.app/",
+		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
+	},
+	{
+		name: "PDF API",
+		description:
+			"PDF siamna a ni a, website URL hmangin emaw, html string hmangin mahni duh ang pdf a siam theih a ni.",
+		image: "/assets/images/document.svg",
+		link: "https://htmltopdf.sirukla.in/",
+		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
+	},
+	{
+		name: "DOCUMENT STORAGE",
+		description:
+			"Document hrang hrang, hmanmai theih turin hmun khatah dah khawm la, ID leh number neuh neuh awlsam takin copy tawh rawh.",
+		image: "/assets/images/document-storage.png",
+		link: "https://storage.sirukla.in/",
+		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
 	},
 	{
 		name: "NEWS LEM LEM",
@@ -22,14 +46,6 @@ export const projectList = [
 		image: "/assets/images/globe.svg",
 		link: "https://news.tiiny.site",
 		link_label: "News lem lem siam ve rawh le",
-	},
-	{
-		name: "PDF API",
-		description:
-			"PDF siamna a ni a, website URL hmangin emaw, html string hmangin mahni duh ang pdf a siam theih a ni.",
-		image: "/assets/images/document.svg",
-		link: "https://tiltehtmltopdf.onrender.com/",
-		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
 	},
 	{
 		name: "OVERTIMED",
