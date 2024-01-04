@@ -21,7 +21,7 @@ export const projectList = [
 			"Thu leh a hrilhfiahna hrang hrang, 'style' deuh hleka kan hmante dahṭhratna tur",
 		image: "/assets/images/awmzia.png",
 		link: "https://awmzia.web.app/",
-		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
+		link_label: "Thu leh hrilhfiahnate enin, lo thawh ve rawh le",
 	},
 	{
 		name: "PDF API",
@@ -37,7 +37,7 @@ export const projectList = [
 			"Document hrang hrang, hmanmai theih turin hmun khatah dah khawm la, ID leh number neuh neuh awlsam takin copy tawh rawh.",
 		image: "/assets/images/document-storage.png",
 		link: "https://storage.sirukla.in/",
-		link_label: "Note emaw invoice emaw mamawh dang i nei em?",
+		link_label: "I lehkha pawimawh dah him ve rawh.",
 	},
 	{
 		name: "NEWS LEM LEM",
@@ -63,4 +63,14 @@ export const projectList = [
 		link: "https://script-siamna.web.app/",
 		link_label: "Nangma project script siam ve ta che",
 	},
+	{
+		name: "AMAZON REVIEW TAM TAM HMASA-AH",
+		description:
+			"Amazon ah bungruakan kan han en kual a, review tam tam a hmasaa lan tir theih dan a awm lo. hemi software hian chumi ata chu a chhanchhuak ang che.",
+		image: "/assets/images/review.svg",
+		link: "https://review-tam2.web.app/",
+		link_label: "Amazon items review tam2 a hmasaah lantir ve rawh",
+	},
+
+	//
 ]
