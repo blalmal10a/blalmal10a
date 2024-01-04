@@ -40,6 +40,14 @@ export const projectList = [
 		link_label: "I lehkha pawimawh dah him ve rawh.",
 	},
 	{
+		name: "PHARMACY MIS",
+		description:
+			"Pharmacy emaw, dawr eng pawh, bungrua lut chhuak leh pawisa che vel chhinchhiahna leh awlsam taka en leta chhut theihna",
+		image: "/assets/images/pharmacy.svg",
+		link: "https://pharmacydemo.web.app/",
+		link_label: "Check demo",
+	},
+	{
 		name: "NEWS LEM LEM",
 		description:
 			"News lem lem siamna 'meme generator' a ni a, LPS news interface-ah thlalak duh zawng leh thu duh zawng ziah luh theih a ni",
