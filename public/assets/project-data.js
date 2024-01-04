@@ -4,7 +4,7 @@ export const projectList = [
 		description:
 			"Hemi project hi, inzirna leh hna thawh sawi tel loh-ah chuan ka khawih hmasak ve ber a ni. Typing speed test-na game a nia, a hnu-ah multiplayer mode dah belh a ni.",
 		image: "/assets/images/typing.svg",
-		link: "https://tiltetype.netlify.app",
+		link: "https://typingduel.netlify.app",
 		link_label: "Hetah hian khelh theihin a awm.",
 	},
 	{
