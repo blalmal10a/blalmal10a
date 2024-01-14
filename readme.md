@@ -9,7 +9,7 @@ I LOVE BUILDING STUPID APPLICATIONS.
 <li style="line-height: 5%"><a target="_blank" href="https://storage.sirukla.in" title="Document Storage">Document Storage</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://overtimed.web.app" title="Overtimed - record time spent per task">Overtimed - record time spent per task</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://review-tam2.web.app" title="Sort Amazon by no. of reviews">Sort Amazon by no. of reviews</a></li>
-<li style="line-height: 5%"><a target="_blank" href="https://tilte.web.app" title="SHAZOO GAME">SHAZOO GAME</a></li>
+<li style="line-height: 5%"><a target="_blank" href="https://shazoo.web.app" title="SHAZOO GAME">SHAZOO GAME</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://typingduel.netlify.app" title="Typing duel">Typing duel</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://awmzia.web.app" title="Awmzia - Mizo Urban Dictionary">Awmzia - Mizo Urban Dictionary</a></li>
 <li style="line-height: 5%"><a target="_blank" href="https://news.tiiny.site" title="News Lem Lem">News Lem Lem</a></li>
