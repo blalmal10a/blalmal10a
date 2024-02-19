@@ -7,7 +7,7 @@ import StarRating from "./StarRating.astro"
 	id="technical-knowledge"
 	class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
 >
-	<div class="container">
+	<div class="container" style="overflow-x: hidden">
 		<div class="grid grid-cols-1 mb-4 text-center">
 			<h6 class="text-orange-600 text-base font-medium uppercase">Technical</h6>
 		</div>
@@ -21,7 +21,7 @@ import StarRating from "./StarRating.astro"
 			class="flex flex-wrap lg:flex-nowrap lg:space-x-5"
 			style="min-width: 100%; overflow-x: auto; min-height: max-content; overflow-y: hidden;"
 		>
-			<div class="w-full lg:col-span-1">
+			<div class="w-full lg:col-span-1" style=";">
 				<table data-aos="flip-right">
 					<tbody>
 						{
@@ -43,7 +43,7 @@ import StarRating from "./StarRating.astro"
 				</table>
 			</div>
 
-			<div class="w-full lg:col-span-1">
+			<div class="w-full lg:col-span-1" style=";">
 				<table
 					data-aos="flip-left"
 					data-aos-offset="300"
