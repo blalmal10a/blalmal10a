@@ -21,20 +21,25 @@ window.addEventListener("load", fn, false)
 //  window.onload = function loader() {
 function fn() {
 	// Preloader
-	if (document.getElementById("preloader")) {
-		setTimeout(() => {
-			document.getElementById("preloader").style.visibility = "hidden"
-			document.getElementById("preloader").style.opacity = "0"
-		}, 1500)
-	}
+	// if (document.getElementById("preloader")) {
+	// 	setTimeout(() => {
+	// 		document.getElementById("preloader").style.visibility = "hidden"
+	// 		document.getElementById("preloader").style.opacity = "0"
+	// 	}, 1500)
+	// }
 	const loaderWrapper = document.querySelector(".loader-wrapper")
 	if (loaderWrapper) {
 		setTimeout(() => {
 			loaderWrapper.style.visibility = "hidden"
 			loaderWrapper.style.display = "none"
 			loaderWrapper.style.opacity = "0"
+			windowScroll()
 		}, 1500)
 	}
+
+	AOS.init({
+		duration: 1200
+	});
 }
 /*********************/
 /*     Menus         */
@@ -47,7 +52,9 @@ function windowScroll() {
 		document.documentElement.scrollTop >= 50
 	) {
 		navbar.classList.add("is-sticky")
+		navbar.classList.remove("bg-black")
 	} else {
+		navbar.classList.add("bg-black")
 		navbar.classList.remove("is-sticky")
 	}
 }
@@ -65,7 +72,7 @@ try {
 		// contentClass: 'active', // applied to the content
 		offset: 80,
 	})
-} catch (error) {}
+} catch (error) { }
 
 // Smooth scroll
 try {
@@ -73,7 +80,7 @@ try {
 		speed: 800,
 		offset: 80,
 	})
-} catch (error) {}
+} catch (error) { }
 
 // Menu Collapse
 const toggleCollapse = (elementId, show = true) => {
@@ -155,7 +162,7 @@ try {
 	const chk = document.getElementById("chk")
 
 	chk.addEventListener("change", changeTheme)
-} catch (err) {}
+} catch (err) { }
 
 /*********************/
 /* LTR & RTL Mode */
@@ -173,4 +180,4 @@ try {
 	}
 	const switcherRtl = document.getElementById("switchRtl")
 	switcherRtl?.addEventListener("click", changeLayout)
-} catch (err) {}
+} catch (err) { }
