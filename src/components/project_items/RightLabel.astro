@@ -8,10 +8,21 @@ const {name, description, image, link, link_label} = Astro.props?.data
 			<div
 				class="date-label-left duration flex justify-center md:me-7 relative"
 			>
-				<img src={image} class="h-64 w-64 object-cover" alt="" />
+				<img
+					src={image}
+					class="h-64 w-64 object-cover"
+					alt=""
+					data-aos="fade-up-right"
+					data-aos-duration="300"
+				/>
 			</div>
 		</div>
-		<div class="mt-4 md:mt-0">
+		<div
+			class="mt-4 md:mt-0"
+			data-aos="fade-up-left"
+			data-aos-anchor-placement="bottom-bottom"
+			data-aos-duration="300"
+		>
 			<div
 				class="event ltr:float-left rtl:float-right ltr:text-left rtl:text-right md:ms-7"
 			>

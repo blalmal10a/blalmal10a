@@ -4,18 +4,13 @@ import StarRating from "./StarRating.astro"
 ---
 
 <section
-	id="projects"
+	id="technical-knowledge"
 	class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
 >
 	<div class="container">
 		<div class="grid grid-cols-1 mb-4 text-center">
 			<h6 class="text-orange-600 text-base font-medium uppercase">Technical</h6>
-
-			<!-- <p class="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">
-				Ka thil tih reng reng hi, ni turin ka la bei nasa tawk lo pawh a ni mah
-				na le.
-			</p> -->
-		</div><!--end grid-->
+		</div>
 
 		<h6
 			class="text-black dark:text-white text-center text-base font-medium uppercase mb-2"
@@ -27,7 +22,7 @@ import StarRating from "./StarRating.astro"
 			style="min-width: 100%; overflow-x: auto; min-height: max-content; overflow-y: hidden;"
 		>
 			<div class="w-full lg:col-span-1">
-				<table>
+				<table data-aos="flip-right">
 					<tbody>
 						{
 							skillList.map((skill) => (
@@ -49,7 +44,11 @@ import StarRating from "./StarRating.astro"
 			</div>
 
 			<div class="w-full lg:col-span-1">
-				<table>
+				<table
+					data-aos="flip-left"
+					data-aos-offset="300"
+					data-aos-duration="500"
+				>
 					<tbody>
 						{
 							otherSkillList.map((skill) => (

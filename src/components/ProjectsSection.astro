@@ -34,11 +34,11 @@ import {otherSkillList, skillList} from "../scripts/skill-data"
 				{
 					projectList.map((data, index) => {
 						return !!(index % 2) ? (
-							<div class={index > 0 ? "mt-36" : ""}>
+							<div class={index > 0 ? "mt-36 fade-in-item" : "fade-in-item"}>
 								<LeftLabel data={data} />
 							</div>
 						) : (
-							<div class={index > 0 ? "mt-36" : ""}>
+							<div class={index > 0 ? "mt-36 fade-in-item" : "fade-in-item"}>
 								<RightLabel data={data} />
 							</div>
 						)

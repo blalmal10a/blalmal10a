@@ -12,7 +12,7 @@ const {title} = Astro.props
 ---
 
 <!doctype html>
-<html lang="en" class="light scroll-smooth">
+<html lang="en" class="light scroll-smooth" style="width: 100vw !important;">
 	<head>
 		<meta charset="UTF-8" />
 		<meta
@@ -41,7 +41,16 @@ const {title} = Astro.props
 			rel="stylesheet"
 			type="text/css"
 		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+			integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="/assets/css/star-rating.css" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
 	</head>
 	<body
 		class="font-rubik text-base text-slate-900 dark:text-white dark:bg-slate-900"
@@ -64,6 +73,13 @@ const {title} = Astro.props
 				TINGE HELAI THLENG THLENG I LO SCROLL A <br /> I HARH LUTUK!
 			</div>
 		</div>
+
+		<script
+			is:inline
+			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"></script>
 		<script is:inline src="/assets/libs/gumshoejs/gumshoe.polyfills.min.js"
 		></script>
 		<script is:inline src="/assets/libs/tobii/js/tobii.min.js"></script>
