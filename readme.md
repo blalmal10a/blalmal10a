@@ -29,11 +29,14 @@ I'm tech enthusiast with experience of over 5 years in the field of research and
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/blalmal10a"><img src="https://github-readme-stats.vercel.app/api?username=blalmal10a&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="blalmal10a's GitHub stats" /></a>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=blalmal10a&show_icons=true&theme=github_dark_dimmed )
 
-<a href="http://www.github.com/blalmal10a"><img src="https://github-readme-streak-stats.herokuapp.com/?user=blalmal10a&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+[![GitHub Streak](https://streak-stats.demolab.com?user=blalmal10a&theme=github-dark-dimmed)](https://git.io/streak-stats)
 
-<a href="https://github.com/blalmal10a" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blalmal10a&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blalmal10a&theme=github_dark_dimmed)
+
+
+
 
 <b>Top Repositories</b>
 
