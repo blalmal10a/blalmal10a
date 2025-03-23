@@ -9,7 +9,7 @@ I'm tech enthusiast with experience of over 5 years in the field of research and
 * 🌍  I'm based in Mizoram
 * 🖥️  See my portfolio at [My Portfolio](http://blalmal10a.github.io)
 * ✉️  You can contact me at [malsawma7777@gmail.com](mailto:malsawma7777@gmail.com)
-* 🚀  I'm currently working on [Vegetable Supply Chain management for Mizoram](http://tleizawng.com)
+* 🚀  I'm currently working on [Vegetable Supply Chain management for Mizoram](http://tlaizawng.com)
 * 🤝  I'm open to collaborating on frontend and backend web, mobile and desktop applications
 * ⚡  How do you turn this on?
 
